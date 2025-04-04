@@ -1,0 +1,44 @@
+# Virtual Environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
+# IDE Specific
+.idea/
+*.swp
+*.swo
+*.vscode/
+
+# FastAPI Specific (if you have generated files)
+# If you create any log files, or temp files, add them here.
+logs/
+tmp/
+
+# Streamlit Specific (if you have generated files)
+.streamlit/cache/
+
+# Data and Media (if you don't want them in the repo)
+data/
+media/
+*.csv
+*.xlsx
+*.sqlite
+
+# Other Files
+*.log
+*.bak
+*.ini
+*.config
+*.secrets # very important to not push secrets to git.
+
+# Python Distribution
+dist/
+build/
+*.egg-info/
